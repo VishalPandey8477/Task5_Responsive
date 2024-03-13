@@ -1446,6 +1446,12 @@ td a {
 
 
 @media screen and (max-width: 768px) {
+
+
+    .footer {
+        background-image: none;
+    }
+
     .footerInner {
         padding-bottom: 50%;
         display: flex;
@@ -1506,6 +1512,10 @@ td a {
         font-size: 16px;
         padding-top: 9%;
         padding-left: 0;
+    }
+
+    .lastimage {
+        display: none;
     }
 
 
