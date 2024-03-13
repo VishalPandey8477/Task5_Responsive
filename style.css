@@ -24,6 +24,14 @@ body {
     display: none;
 }
 
+.mobile-menu-modal {
+    display: none;
+}
+
+.ttd_Image {
+    display: none;
+}
+
 
 .upperContainer {
     /* border: 1px solid black; */
@@ -112,7 +120,7 @@ a:hover {
 }
 
 
-.ttd_Image {
+.ttd_Image2 {
     /* border: 2px solid goldenrod; */
     padding-left: 4%;
 
@@ -121,6 +129,8 @@ a:hover {
 .top_Image {
     height: 100%;
 }
+
+
 
 
 
@@ -136,6 +146,18 @@ a:hover {
         display: block;
     }
 
+    .mobile-menu-modal {
+        display: block;
+    }
+
+    .ttd_Image {
+        display: block;
+    }
+
+    .navBarContainer {
+        /* border: 1px solid blue; */
+        display: none;
+    }
 
 
     .body {
@@ -430,6 +452,7 @@ a:hover {
 
 }
 
+.cardFirst2,
 .cardFirst1 {
     margin-right: 63px;
 
@@ -531,6 +554,11 @@ a:hover {
         flex-direction: column;
         align-items: center;
 
+    }
+
+
+    .menstanding {
+        width: 100%;
     }
 }
 
@@ -666,7 +694,9 @@ a:hover {
     bottom: 5px;
 }
 
-
+.width_less {
+    display: none;
+}
 
 @media screen and (max-width:768px) {
     .fourthPart {
@@ -678,6 +708,9 @@ a:hover {
         /* background-color: rgb(249, 232, 202); */
     }
 
+    .width_less {
+        display: block;
+    }
 
     .fourthPart_content {
         width: 100%;
@@ -768,6 +801,12 @@ a:hover {
         font-family: sans-serif;
     }
 
+    .belowLeft_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 
@@ -841,11 +880,28 @@ h2 {
 }
 
 
+.right2 {
+    display: none;
+}
+
+.missingPartContent {
+    text-align: justify;
+}
+
+.rightpart {
+    margin-left: 3%;
+}
+
+
 
 @media screen and (max-width:768px) {
     .missingPart {
         background-image: none;
         padding: 4%;
+    }
+
+    .right2 {
+        display: block;
     }
 
     .left {
@@ -912,18 +968,17 @@ h2 {
     /* border: 2px solid pink; */
     /* display: inline-block; */
     width: 700px;
-    font-family: sans-serif;
 }
 
 .fifthPart_content span {
-    /* margin-left: 100px; */
-    font-size: 2rem;
+    margin-left: 100px;
+    font-size: 30px;
     font-weight: 600;
 
 }
 
 .fifthPart_content p {
-    /* margin-left: 40px; */
+    margin-left: 40px;
     font-weight: 600;
 }
 
@@ -933,22 +988,22 @@ h2 {
     /* display: inline-block; */
     display: flex;
     align-items: center;
-    /* margin-left: 7%; */
+    margin-left: 7%;
 }
 
 .fifthPart img {
-    width: 100%;
+    width: 110%;
     margin-top: 14%;
 }
 
 
 .fifthPart h1 {
-    font-size: 5rem;
+    font-size: 80px;
 }
 
 .fifthPart hr {
     background-color: #1b1b1a;
-    height: 0.1rem;
+    height: 2px;
 }
 
 
@@ -1290,7 +1345,7 @@ form button {
 
 
     .seventhPart .formPart {
-        background-image: url(images/riverflow.jpeg);
+        background-image: url(images/riverflow2.jpeg);
         background-size: cover;
         /* border: 2px solid black; */
         /* display: inline-block; */
