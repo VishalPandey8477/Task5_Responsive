@@ -20,6 +20,11 @@ body {
 }
 
 
+.burger-menu {
+    display: none;
+}
+
+
 .upperContainer {
     /* border: 1px solid black; */
     padding-top: 0;
@@ -125,6 +130,10 @@ a:hover {
 
     * {
         font-family: "cardo";
+    }
+
+    .burger-menu {
+        display: block;
     }
 
 
@@ -666,7 +675,7 @@ a:hover {
         margin: 0;
         padding: 0;
         padding-top: 16%;
-        background-color: rgb(249, 232, 202);
+        /* background-color: rgb(249, 232, 202); */
     }
 
 
@@ -682,9 +691,19 @@ a:hover {
 
 
     .fourthBelow {
+        width: 100%;
+        margin: 0;
+        padding: 0;
         margin-top: 5%;
         display: flex;
         flex-direction: column;
+    }
+
+
+    .belowright_text .head {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     .contentFlex {
@@ -692,10 +711,11 @@ a:hover {
         padding-top: 8%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .contentFlex h1 {
-        font-size: 30px;
+        font-size: 25px;
         text-decoration: none;
     }
 
@@ -739,11 +759,13 @@ a:hover {
 
     .simpleText {
         text-align: justify;
+        width: 90%;
     }
 
     .simpleText p {
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 15px;
+        line-height: 1rem;
+        font-family: sans-serif;
     }
 
 }
@@ -842,7 +864,7 @@ h2 {
 
     .rightImage {
         width: 100%;
-        box-shadow: 2px 2px 20px white;
+        /* box-shadow: 2px 2px 20px white; */
     }
 
     .rightpart {
@@ -952,30 +974,32 @@ h2 {
 
     .fifthPart p,
     .fifthPart_content span {
-        font-size: 15px;
+        font-size: 16px;
         width: 90%;
         line-height: 1rem;
-        font-weight: 500;
-        text-align: center;
+        font-weight: 600;
+        text-align: justify;
     }
 
     .fifthPart h1 {
         padding: 0;
         margin: 0;
-        font-size: 1.9rem;
+        font-size: 2rem;
+        font-weight: 800;
         padding-bottom: 8%;
+        line-height: 2rem;
 
     }
 
     .fifthheading {
-        width: 97%;
+        width: 100%;
         text-align: center;
     }
 
     .fifthPart hr {
         margin: 0;
         padding: 0;
-        width: 70%;
+        width: 90%;
     }
 
     .fifthPart_image {
@@ -1139,16 +1163,18 @@ h2 {
     .firstCard {
         margin: 0;
         padding: 0;
-        padding: 4%;
+        padding: 0%;
+        padding-top: 3%;
     }
 
 
     .firstCard3 {
         /* padding: 0; */
         margin: 0;
-        margin-top: 3%;
+        margin-top: 8%;
         padding: 0;
-        padding: 4%;
+        padding: 0%;
+        padding-top: 3%;
     }
 
     .leftarrowww,
@@ -1294,7 +1320,7 @@ form button {
         /* border: 2px solid black; */
         border-radius: 5px;
         margin-bottom: 5%;
-        box-shadow: 2px 2px 10px black;
+        font-weight: 600;
     }
 
     .imagePart {
