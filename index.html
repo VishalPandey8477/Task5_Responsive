@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function openMenu() {
+            const menu = document.querySelector(".mobile-menu-modal");
+            const menuBar = document.querySelector(".mobile-menu");
+            menu.style.display = "block";
+            menuBar.style.display = "block";
+        }
+
+        function closeMenu(e) {
+            const menu = document.querySelector(".mobile-menu-modal");
+            const menuBar = document.querySelector(".mobile-menu");
+            menu.style.display = "none";
+            menuBar.style.display = "none";
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+    <div class="travel_front_page">
+        <div class="mobile-menu-modal">
+            <div class="mobile-menu">
+                <p>Home <span onclick="closeMenu()" class="closing">X</span></p>
+                <p>Guides</p>
+                <p>Flights</p>
+                <p>About</p>
+                <p>Contact Us</p>
+                <!-- <p onclick="closeMenu()">close</p> -->
+            </div>
+        </div>
+        <div onclick="openMenu()" class="burger-menu">
+            <img src="./burger-menu.png" />
+
+        </div>
+        <!----------------------------------------------Upper Page-------------------------------------------------- -->
+        <div class="upperContainer">
+            <!-- <div class="navBarContainer">
+                <div class="navBar">
+                    <a href="">Home</a>
+                    <a href="">Guides</a>
+                    <a href="">Flights</a>
+                    <a href="">About</a>
+                </div>
+
+                <span class="contact">Contact Us</span>
+            </div> -->
+
+
+            <!------------------------------------Travel to Dream content and the Image---------------------------  -->
+            <div class="traveltoDreamContainer">
+                <div class="ttd_Content">
+                    <div class="travelHeadingdiv">
+                        <span class="ttd_Heading">Travel to your dream destination</span>
+                    </div>
+                    <div class="ttd_Image">
+                        <img src="images/top.jpg" alt="" class="top_Image">
+                    </div>
+                    <div class="ttd_textdiv">
+                        <p class="ttd_Text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
+
+                    </div>
+
+                    <button class="button_Reserve">Reserve Ticket</button>
+                </div>
+                <div class="ttd_Image2">
+                    <img src="images/top.jpg" alt="" class="top_Image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------------Second part----------------------------------------------------- -->
+    <div class="secondPart">
+
+        <div class="memoryPart">
+            <h1 class="memoryHeading">Create a memory to remember</h1>
+            <p class="memoryContent">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod
+                tempor
+                incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+
+            <div class="class_travellogs">
+                <button class="button_travellogs">My Travel Logs</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------------------Third part Image cards------------------------------------------------ -->
+
+    <div class="thirdPart">
+
+        <div class="containCards">
+            <div class="cardFirst2">
+                <div class="cardFirst_image">
+                    <img src="images/menstanding.jpg" alt="" class="menstanding">
+
+                </div>
+                <div class="cardFirst_content">
+                    <hr>
+                    <h1>Lorem ipsum dolor sit amet</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+
+                </div>
+
+            </div>
+
+            <div class="cardFirst1">
+                <div class="cardFirst_image">
+                    <img src="images/mountain.jpg" alt="" class="menstanding">
+
+                </div>
+                <div class="cardFirst_content">
+                    <hr>
+                    <h1>Lorem ipsum dolor sit amet</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="cardFirst">
+                <div class="cardFirst_image">
+                    <img src="images/boysitting.jpg" alt="" class="menstanding">
+
+                </div>
+                <div class="cardFirst_content">
+                    <hr>
+                    <h1>Lorem ipsum dolor sit amet</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- 
+            <div class="cardSecond">
+                <div class="cardSecond_image">
+
+                </div>
+                <div class="cardSecond_content">
+                    
+
+                </div>
+
+
+            </div>
+
+            <div class="cardThird">
+                <div class="cardThird_image">
+
+                </div>
+                <div class="cardThird_content">
+
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- --------------------------------------------Fourth part Areoplane--------------------------------------- -->
+    <div class="fourthPart">
+        <div class="fourthPart_image">
+            <img src="images/airplace_icon.png" alt="">
+
+        </div>
+        <div class="fourthPart_content">
+            <span class="text">See places you've <span
+                    style="font-style: italic; text-decoration: underline;">never</span> been before</span>
+
+        </div>
+
+        <div class="lorem">
+            <span class="loremText">Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor</span>
+        </div>
+
+        <div class="fourtimage_left">
+            <img src="images/fourthPart_left.png" alt="">
+
+        </div>
+
+
+        <div class="fourthBelow">
+
+            <div class="belowLeft_img2">
+                <img src="images/riverflow2.jpg" alt="">
+
+            </div>
+
+            <div class="belowright_text">
+                <div class="img">
+                    <img src="images/mountain2.jpg" alt="">
+                </div>
+
+                <div class="contentFlex">
+                    <div class="head">
+                        <h1>Lorem Ipsum dolor sit amet consectetur adipiscing elit sed do </h1>
+                    </div>
+                    <div class="belowLeft_img">
+                        <img src="images/riverflow2.jpg" alt="">
+
+                    </div>
+                    <div class="simpleText">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam , quis nostrud.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam , quis nostrud.</p>
+
+                    </div>
+
+                </div>
+
+
+                <img src="images/arrow.png" alt="" class="img2">
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- ----------------------------------------MIssing part-------------------------------------------------- -->
+
+    <div class="missingPart">
+
+        <div class="content">
+
+            <div class="left">
+                <div class="missingPartHeading">
+                    <h1>Choose anywhere you'd like to be</h1>
+
+                </div>
+                <div class="right2">
+                    <img src="images/menstanding.jpg" alt="" class="rightImage">
+
+                </div>
+                <div class="missngPartContent">
+                    <h2 class="down"> Lorem Ipsum dolor</h2>
+                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Rem nisi
+                        pe rferendis doloribus officiis
+                        sed
+                        molestias suscipit nihil dignissim os, laudantium vero, m agnam adipisci, cum repudiandae
+                        voluptatum
+                        vo luptate? Sunt nesciunt cum a speriores.
+                        molestias suscipit nihil dign issimos, laudantium vero, magnam adip isci, cum repudiandae
+                        volu ptatum
+                        voluptate? </p>
+
+                    <h2> Lorem Ipsum dolor</h2>
+                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Rem nisi
+                        pe rferendis doloribus officiis
+                        sed
+                        molestias suscipit nihil dignissim os, laudantium vero, m agnam adipisci, cum repudiandae
+                        voluptatum
+                        vo luptate? Sunt nesciunt cum a speriores.
+                        molestias suscipit nihil dign issimos, laudantium vero, magnam adip isci, cum repudiandae
+                        volu ptatum
+                        voluptate? </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="rightpart">
+                <img src="images/menstanding.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ---------------------------------------------Fifth Part----------------------------------------------- -->
+
+
+    <div class="fifthPart">
+        <div class="fifthPart_content">
+            <div class="fifthheading">
+                <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            </div>
+
+
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod <span>+</span></p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod <span>+</span></p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod <span>+</span></p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod <span>+</span></p>
+
+
+        </div>
+
+        <div class="fifthPart_image">
+            <img src="images/boysittingvertical.jpg" alt="">
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ---------------------------------------------Sixht Part---------------------------------------------- -->
+
+    <div class="sixthPartfull">
+        <div class="sixthPart">
+            <div class="sixthPart_heading">
+                <h1>Here's what they have to say...</h1>
+
+            </div>
+
+            <div class="sixthPart_cards">
+                <div class="firstCard">
+                    <div class="image">
+                        <img src="images/ellipse.png" alt="">
+
+                    </div>
+                    <div class="content">
+                        <p class="customerName">Customer Name</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                            incid idunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+
+
+                </div>
+                <div class="firstCard3">
+                    <div class="image">
+                        <img src="images/ellipse.png" alt="">
+
+                    </div>
+                    <div class="content">
+                        <p class="customerName">Customer Name</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                            incid idunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+
+                </div>
+                <div class="firstCard3">
+                    <div class="image">
+                        <img src="images/ellipse.png" alt="">
+
+                    </div>
+                    <div class="content">
+                        <p class="customerName">Customer Name</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                            incid idunt ut labore et dolore magna aliqua.</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <img src="images/left_arrow-removebg-preview.png" alt="" class="leftarrowww">
+        <img src="images/right_arrow-removebg-preview (1).png" alt="" class="rightarrowww">
+    </div>
+
+
+
+
+
+    <!-- --------------------------------------------Seventh Part--------------------------------------------------------- -->
+
+    <div class="seventhPart">
+        <div class="formPart">
+
+
+            <form action="">
+                <span class="formHeading">Be updated!</span><br>
+                <input type="text" name="" id="" placeholder="First Name*"><br>
+                <input type="text" name="" id="" placeholder="Last Name*"><br>
+                <input type="text" name="" id="" placeholder="Email Subject*"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write something here...."></textarea><br>
+                <button>Submit Email</button>
+
+            </form>
+
+        </div>
+        <div class="imagePart">
+            <img src="images/riverflow.jpg" alt="">
+
+        </div>
+    </div>
+
+
+    <!-- -----------------------------------------Footer----------------------------------- -->
+    <!-- <div class="footer">
+        <div class="footerContent">
+            <div class="footerContentLeft">
+                <h1>My Log</h1>
+                <h1>Travels</h1>
+            </div>
+            <div class="footerContentRight">
+                <div class="footerContentRightHeading">
+                    <h2 style="color: black;">Quick Links</h2>
+                </div>
+
+                <div class="footerContentQuickLink">
+
+                    <table style="width: 100%;">
+                        <tr>
+                            <td><a href="">Home</a></td>
+                            <td><a href="">Travels</a></td>
+                            <td><a href="">Recommendations</a></td>
+                            <td><a href="">Mission Statements</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="">About US</a></td>
+                            <td><a href="">Promo Flights</a></td>
+                            <td><a href="">Guids</a></td>
+                            <td><a href="">The Team</a></td>
+                        </tr>
+
+                        <tr>
+                            <td><a href="">My Travel Logs</a></td>
+                            <td><a href="">Travel Routes</a></td>
+                            <td><a href="">Blogs</a></td>
+                            <td><a href="">Contact Us</a></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+            <div class="footerCopyright">
+                <p>2021-2022 My Log Travels.All Rights Reserved.</p>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- --------------------------------------------------Footer------------------------------------------------------ -->
+
+    <div class="footer">
+
+        <div class="footerInner">
+            <div class="left">
+                <span class="logo">My Log Travels</span>
+
+            </div>
+
+            <div class="right">
+                <p class="quicky">Quick Links</p>
+                <div class="items">
+                    <div class="uppertwo">
+                        <div class="first">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>My Travel Logs</li>
+                        </div>
+
+                        <div class="second">
+                            <li>Travels</li>
+                            <li>Promo Flights</li>
+                            <li>Travel Routes</li>
+
+                        </div>
+
+                    </div>
+
+                    <div class="lowertwo">
+                        <div class="third">
+
+                            <li>Recommendations</li>
+                            <li>Guides</li>
+                            <li>Blogs</li>
+
+
+                        </div>
+                        <div class="fourth">
+
+                            <li>Mission Statement</li>
+                            <li>The Team</li>
+                            <li>Contact Us</li>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="copyright">
+                    <p>2021-2022 My Log Travels. All Rights Reserved.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <img src="images/last_left.png" alt="" class="lastimage">
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
